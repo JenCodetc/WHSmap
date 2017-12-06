@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WHS Interior Map | Teachers</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+        html {
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        div.bgimg {
+            /* background-image: url('flagone.jpg'); */
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        div.margin {
+            margin-left: 7vh;
+            margin-left: 5vw;
+            margin-top: 7vh;
+        }
+        
+        div.banner {
+            font-size: 5vh;
+            font-size: 2vw;
+        }
+        
+        button.options {
+            border-radius: 3px;
+            height: 6vw;
+            width: 16vw;
+            font-family: 'Poppins', sans-serif;
+            font-size: 2vw;
+            margin-right: 3vw;
+            margin-bottom: 4vw;
+            padding: 2vh;
+            padding-top: 1vw;
+            padding-bottom: 4vh;
+            background-color: rgb(210, 221, 239);
+        }
+        
+        div.teachers {
+            width: 18vw;
+            height: 2vh;
+            position: absolute;
+            font-size: 1.75vw;
+            display: inline-block;
+        }
+        
+        div.teachers a {
+            background-color: #eee;
+            color: black;
+            display: block;
+            padding: 2vh;
+            padding: 1vw;
+            padding-left: 2vw;
+            padding-right: 1vw;
+            text-decoration: none;
+        }
+        
+        div.teachers a:hover {
+            background-color: #ccc;
+        }
+        
+        div.teachers a.active {
+            background-color: steelblue;
+            color: white;
+        }
+        
+        div.tinfo {
+            position: relative;
+            margin-left: 23vw;
+            display: inline-block;
+            text-align: left;
+            margin-bottom: 6vw;
+        }
+        
+        div.semester {
+            font-size: 5vh;
+            font-size: 2.5vw;
+            margin-bottom: 1vw;
+            text-decoration: underline;
+        }
+        
+        table {
+            border-collapse: collapse;
+        }
+        
+        th.pd {
+            border: solid black 1px;
+            padding: 1vw;
+            padding-right: 2vw;
+            padding-left: 2vw;
+            border-collapse: collapse;
+            font-size: 1.8vw;
+            width: 2.2vw;
+        }
+        th.class {
+            border: solid black 1px;
+            padding: 1vw;
+            padding-right: 2vw;
+            padding-left: 2vw;
+            border-collapse: collapse;
+            font-size: 1.8vw;
+            width: 20vw;
+        }
+        th.rmn {
+            border: solid black 1px;
+            padding: 1vw;
+            padding-right: 2vw;
+            padding-left: 2vw;
+            border-collapse: collapse;
+            font-size: 1.8vw;
+            width: 5vw;
+        }
+        
+        td.pd {
+            border: solid black 1px;
+            padding: 1vw;
+            padding-right: 2vw;
+            padding-left: 2.75vw;
+            border-collapse: collapse;
+            font-size: 1.75vw;
+            width: 2.2vw;
+        }
+        td.class{
+            border: solid black 1px;
+            padding: 1vw;
+            padding-right: 2vw;
+            padding-left: 2vw;
+            border-collapse: collapse;
+            font-size: 1.75vw;
+            width: 20vw;
+        }
+        td.rmn {
+            border: solid black 1px;
+            padding: 1vw;
+            padding-right: 2vw;
+            padding-left: 2vw;
+            border-collapse: collapse;
+            font-size: 1.75vw;
+            width: 5vw;
+        }
+        
+        footer {
+            width: 97vw;
+            height: 20vh;
+            border: solid black 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bgimg">
+        <div class="margin">
+            <div class="banner">
+                <h1>Wootton HS Interior Map 2017-18</h1>
+            </div>
+            <div>
+                <button class="options">
+                    Home
+                </button>
+                <button class="options">
+                    Clubs
+                </button>
+                <button class="options">
+                    Events
+                </button>
+                <button class="options">
+                    Other
+                </button>
+            </div>
+            <div>
+                <div class="teachers">
+                    <a class="active"><b>Teachers</b></a>
+                    <a href="">Adler</a>
+                    <a href="">Bentley</a>
+                    <a href="">Buxton</a>
+                    <a href="">Chang</a>
+                    <a href="">Chiu</a>
+                    <a href="">Daugherity</a>
+                    <a href="">Davis</a>
+                    <a href="">Debnam</a>
+                    <a href="">DeLeo</a>
+                    <a href="">Duong</a>
+                    <a href="">Dyer</a>
+                    <a href="">Foeckler</a>
+                    <a href="">Forsberg</a>
+                    <a href="">Freundel</a>
+                    <a href="">Hardy</a>
+                    <a href="">Haynes</a>
+                    <a href="">Hitchens</a>
+                    <a href="">Ho</a>
+                    <a href="">Kwak</a>
+                    <a href="">Labbe</a>
+                    <a href="">Long</a>
+                    <a href="">Lowe</a>
+                    <a href="">Maass</a>
+                    <a href="">Marchand</a>
+                    <a href="">Marshall</a>
+                    <a href="">McMahon</a>
+                    <a href="">Mockensturm</a>
+                    <a href="">Moomau</a>
+                    <a href="">O'Neill</a>
+                    <a href="">Oyague</a>
+                    <a href="">Parker</a>
+                    <a href="">Pecararo</a>
+                    <a href="">Pykosh</a>
+                    <a href="">Rice</a>
+                    <a href="">Roberts</a>
+                    <a href="">Ruback</a>
+                    <a href="">Salzman</a>
+                    <a href="">Schwartz</a>
+                    <a href="">Schwarz</a>
+                    <a href="">Silcox</a>
+                    <a href="">Tipton</a>
+                    <a href="">Steppling</a>
+                    <a href="">Whitsett</a>
+                    <a href="">Winter</a>
+                    <a href="">Yanity</a>
+                    <a href=""></a>
+                </div>
+                <div class="tinfo">
+                    <div class="semester">
+                        Semester 1
+                    </div>
+                    <table>
+                        <tr>
+                            <th class="pd">Pd</th>
+                            <th class="class">Class</th>
+                            <th class="rmn">Rm #</th>
+                        </tr>
+                        <tr>
+                            <td class="pd">1</td>
+                            <td class="class"></td>
+                            <td class="rmn"></td>
+                        </tr>
+                        <tr>
+                            <td class="pd">2</td>
+                            <td class="class"></td>
+                            <td class="rmn"></td>
+                        </tr>
+                        <tr>
+                            <td class="pd">3</td>
+                            <td class="class"></td>
+                            <td class="rmn"></td>
+                        </tr>
+                        <tr>
+                            <td class="pd">4</td>
+                            <td class="class"></td>
+                            <td class="rmn"></td>
+                        </tr>
+                        <tr>
+                            <td class="pd">5</td>
+                            <td class="class">- Lunch -</td>
+                            <td class="rmn"></td>
+                        </tr>
+                        <tr>
+                            <td class="pd">6</td>
+                            <td class="class"></td>
+                            <td class="rmn"></td>
+                        </tr>
+                        <tr>
+                            <td class="pd">7</td>
+                            <td class="class"></td>
+                            <td class="rmn"></td>
+                        </tr>
+                        <tr>
+                            <td class="pd">8</td>
+                            <td class="class"></td>
+                            <td class="rmn"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="tinfo">
+                    <div class="semester">
+                        Semester 2
+                    </div>
+                    <table>
+                        <tr>
+                            <th class="pd">Pd</th>
+                            <th class="class">Class</th>
+                            <th class="rmn">Rm #</th>
+                        </tr>
+                        <tr>
+                            <td class="pd">1</td>
+                            <td class="class"></td>
+                            <td class="rmn"></td>
+                        </tr>
+                        <tr>
+                            <td class="pd">2</td>
+                            <td class="class"></td>
+                            <td class="rmn"></td>
+                        </tr>
+                        <tr>
+                            <td class="pd">3</td>
+                            <td class="class"></td>
+                            <td class="rmn"></td>
+                        </tr>
+                        <tr>
+                            <td class="pd">4</td>
+                            <td class="class"></td>
+                            <td class="rmn"></td>
+                        </tr>
+                        <tr>
+                            <td class="pd">5</td>
+                            <td class="class">- Lunch -</td>
+                            <td class="rmn"></td>
+                        </tr>
+                        <tr>
+                            <td class="pd">6</td>
+                            <td class="class"></td>
+                            <td class="rmn"></td>
+                        </tr>
+                        <tr>
+                            <td class="pd">7</td>
+                            <td class="class"></td>
+                            <td class="rmn"></td>
+                        </tr>
+                        <tr>
+                            <td class="pd">8</td>
+                            <td class="class"></td>
+                            <td class="rmn"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    
+</footer>
+
+</html>
